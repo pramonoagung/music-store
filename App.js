@@ -4,7 +4,7 @@ import { AppRegistry } from "react-native";
 import Header from "./src/components/header";
 
 // Create a component
-const myApp = () => <Header />;
+const myApp = () => <Header headerTitle={'Album'}/>;
 
 export default myApp;
 // Render it to the device
